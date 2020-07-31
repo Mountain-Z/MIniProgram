@@ -1,0 +1,15 @@
+<block wx:for = '{{letters}}' wx:key = "index">
+	<view>{{item}}</view>
+</block>
+
+<!-- //组件修改外部数据 -->
+<view>外部数据{{counter1}}</view>
+<my-fixouter bind:handleouter = "fixouter"/>
+
+<!-- 外部修改组件数据 -->
+
+<button bind:tap = "fixInner" size = "mini">外部修改组件数据</button>
+<my-fixinner class = "my_fix"/>
+
+
+

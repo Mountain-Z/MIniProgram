@@ -1,0 +1,5 @@
+<!-- <my-ex01 subTitle = "{{subTitle}}" bind:selecttab = "selecttab"/> -->
+<my-ex01 subTitle = "{{subTitle}}" bind:clickTab = "handleclickTab"/>
+
+
+

@@ -1,0 +1,6 @@
+<view class = "wrapper">
+	<block wx:for="{{subTitle}}" wx:key = "item">
+		<view class = 'content {{currentIndex == index ? "active" : ""}}' bind:tap = "clickTab" data-index="{{index}}">
+		<text>{{item}}</text></view>
+	</block>
+</view>

@@ -1,0 +1,38 @@
+{
+	"pages": [
+		"pages/test01/test01",
+		"pages/Exercise01/Exercise01",
+		"pages/home/home",
+		
+		"pages/search/search",
+		"pages/scroll/scroll",
+		"pages/about/about"
+		
+	],
+	"window": {
+		"navigationBarBackgroundColor": "#ffffff",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "小程序",
+		"backgroundColor": "red",
+		"backgroundTextStyle": "light",
+		"enablePullDownRefresh": false
+	},
+	"tabBar": {
+		"selectedColor": "#ff0000",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "assets/img/tabbar/home.png",
+				"selectedIconPath": "assets/img/tabbar/home_active.png"
+			},
+			{
+				"pagePath": "pages/about/about",
+				"text": "分类",
+				"iconPath": "assets/img/tabbar/category.png",
+				"selectedIconPath": "assets/img/tabbar/category_active.png"
+			}
+		]
+	},
+	"sitemapLocation": "sitemap50.json"
+}

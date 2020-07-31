@@ -1,0 +1,32 @@
+<!-- pages/home.wxml -->
+<swiper autoplay="{{true}}">
+
+</swiper>
+<view>hello word</view>
+<view  wx:for="{{students}}" wx:key="unique">{{item.name}}</view>
+<view>{{count}}</view>
+<button size='mini' bindtap="countUp">+</button>
+<button size="mini" bindtap="countDown">-</button>
+<view></view>
+<button size = 'mini' open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">获取用户信息</button>
+
+<open-data type='userNickName'></open-data>
+<open-data type='userNick'></open-data>
+
+<image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2746890508,1411167354&fm=26&gp=0.jpg" show-menu-by-longpress></image>
+<text>asdfgbhn</text>
+
+<button bindtap="chooseImage">上传图片</button>
+<image src='{{showImage}}' show-menu-by-longpress></image>
+<!-- lazy-load = "{{true}}"  图片懒加载-->
+
+<view class = "box1" 
+	  
+	show-menu-by-longpress
+></view>
+<view class="title">hellow word</view>
+<my-cpn/>
+<!-- 组件事件 -->
+<view>当前计数{{count2}}</view>
+<my-event data = "{{count2}}" />
+

@@ -1,0 +1,3 @@
+
+<button bind:tap = "handleouter">我是组件按钮</button>
+

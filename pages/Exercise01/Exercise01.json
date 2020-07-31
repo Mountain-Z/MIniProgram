@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "my-ex01":"/components/my-ex01/my-ex01"
+  }
+}

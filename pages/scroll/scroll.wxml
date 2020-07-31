@@ -1,0 +1,12 @@
+<scroll-view class = "content1" scroll-x>
+	<view wx:for="{{10}}" class = "item1">{{item}}</view>
+</scroll-view>
+<scroll-view class = "content2" scroll-y>
+	<view wx:for="{{10}}" class = "item2">{{item}}</view>
+</scroll-view>
+
+<scroll-view class = "content2" scroll-y bindscroll = "handleScroll">
+	<view wx:for="{{10}}" class = "item2">{{item}}</view>
+</scroll-view>
+
+

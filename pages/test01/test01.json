@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+
+    "my-fixouter":"/components/my-fixouter/my-fixouter",
+    "my-fixinner":"/components/my-fixinner/my-fixinner"
+  }
+}
